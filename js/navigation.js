@@ -6,15 +6,17 @@ let categoriesCont = document.getElementById('categories-cont');
 // Menu Side Bar
 function showMenu(){
 menuCont.classList.toggle('show-menu-content')
-
+categoriesCont.classList.remove('show-categories-cont');
+genreCont.classList.remove('show-genre-cont');
 }
-// Genre Show
+
+// Show Genre
 function showGenre(){
 genreCont.classList.toggle('show-genre-cont');
 categoriesCont.classList.remove('show-categories-cont');
 }
 
-// Categories Show
+// Show Categories
 function showCategories(){
 categoriesCont.classList.toggle('show-categories-cont');
 genreCont.classList.remove('show-genre-cont');
