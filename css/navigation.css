@@ -6,6 +6,10 @@
     justify-content: space-between;
     padding: 0 30px ;
     background: grey;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
 }
  .logo{
     width: 50px;
@@ -15,14 +19,71 @@
  }
 
  .navlinks{
+    width: 500px;
     display: flex;
     margin-left: 50px;
+    height: 60px;
+    align-items: center;
+    background: grey;
  }
 
  .navlinks li {
     padding: 5px 15px;
     color: #fff;
  }
+
+/* arrow */
+ .arrow{
+    display: flex;
+    align-items: center;
+    color: #fff
+ }
+
+ .arrow ion-icon{
+    padding-top: 5px;
+    position: relative;
+ }
+
+ .genre-cont{
+    width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+    background:  #222;
+    position: fixed;
+    /* top: 65px; */
+    top: -100%;
+    transition: 0.3s;
+    opacity: 0;
+    z-index: -3;
+ }
+
+ .show-genre-cont{
+    top: 65px;
+    transition: 0.3s;
+    opacity: 1;
+
+ }
+
+ .categories-cont{
+    width: 200px;
+    min-height: 200px;
+    border-radius: 10px;
+    background:  #222;
+    position: fixed;
+    /* top: 65px; */
+    top: -100%;
+    transition: 0.3s;
+    opacity: 0;
+    z-index: -3;
+ }
+
+ .show-categories-cont{
+    top: 65px;
+    transition: 0.3s;
+    opacity: 1;
+    
+ }
+/* arrow */
 
  .rightcontent{
     display: flex;
@@ -78,6 +139,25 @@
     align-items: center;
     justify-content: center;
     color: #fff;
+    cursor: pointer;
  }
+
+ .menu-content{
+    width: 300px;
+    height: 100vh;
+    background: #222;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    transition: 0.3s;
+    opacity: 0;
+ }
+
+ .show-menu-content{
+    right: 0;
+    opacity: 1;
+ }
+
+
 
 
