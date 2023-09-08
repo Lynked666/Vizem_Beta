@@ -10,3 +10,13 @@ a, li{
 text-decoration: none;
 list-style: none;
 }
+
+.main-container{
+    width: 100%;
+    display: flex;
+}
+
+body{
+    display: flex;
+    overflow: hidden;
+}

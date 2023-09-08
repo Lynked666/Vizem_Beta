@@ -20,4 +20,4 @@ categoriesCont.classList.remove('show-categories-cont');
 function showCategories(){
 categoriesCont.classList.toggle('show-categories-cont');
 genreCont.classList.remove('show-genre-cont');
-    }
+}
