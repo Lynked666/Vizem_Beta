@@ -7,7 +7,7 @@
    align-items: center;
    justify-content: space-between;
    padding: 0 30px;
-   background: #222;
+   background: black;
    position: absolute;
    top: 0;
    left: 50%;
@@ -28,7 +28,7 @@
    margin-left: 50px;
    height: 60px;
    align-items: center;
-   background: #222;
+   background: black;
 }
 .navlinks li{
    padding: 5px 15px;
@@ -88,7 +88,7 @@
 }
 .searchbar span ion-icon{
    font-size: 19px;
-   color: #222;
+   color: black;
 }
 
 .menu-bar{
