@@ -14,6 +14,7 @@ a, li{
     width: 100%;
     display: flex;
     position: relative;
+    background: pink;
 }
 body{
     display: flex;
@@ -200,7 +201,7 @@ footer{
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    /* background: #f7f7f7; */
+    background: #0e0e0e;
 }
 .footer-logo img{
     width: 100%;
@@ -280,6 +281,7 @@ footer{
     position: relative;
     margin-left: 10px;
     margin-top: 5px;
+    cursor: pointer;
 }
 .top-anime-header{
     width: 100%;
@@ -288,6 +290,7 @@ footer{
     color: #6c757d;
     align-items: center;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 .top-anime-header label{
     color: #fff;
@@ -364,6 +367,7 @@ footer{
     justify-content: flex-start;
     padding: 5px 10px;
     margin: 5px 0;
+    cursor: pointer;
 }
 .top-list span{
     width: 40px;
